@@ -10,7 +10,7 @@ Nothing is actually available just yet, please come back later...
 This is the repository for the eagerly ancitipated release of my wheel's model files and build instructions.
 If you want to build your own spinning prize wheel that is card-table sized (86 centimeters, or 34 inches, or just a little under 1.5 dogs in diameter)  using a 3D printer and a cutting machine, you've come to the right place.
 
-[View Instructions]
+[View Instructions](https://dukeiscreating.github.io/build-a-wheel/)
 
 [Download All Files](https://github.com/DukeIsCreating/build-a-wheel/archive/refs/heads/main.zip)
 
