@@ -1,28 +1,51 @@
-﻿# 🚧Build a Tabletop Spinning Prize Wheel🚧
+﻿# Build a Tabletop Game Wheel
 
-# 🚧Under Construction🚧
+Welcome! If you're here, you probably want to build a tabletop game wheel that sits on a card table. That's awesome, and I'm glad to help by providing these instructions and files.
 
-Nothing is actually available just yet, please come back later...
+# Basic Features and Design
 
-----------
+The finished wheel, including trim around the outside but not including pointer stations, is just a little under 34 inches in diameter and is made to fit a standard size card table.
 
-Welcome! If you're here, you probably want to build a spinning wheel that sits on a card table. That's awesome, and I'm glad to help by providing these instructions and files.
+Most of the wheel is designed to be 3D printed using PETG filament.
 
-A couple of notes before we get into the thick of it:
+The wheel, as designed, has 72 spoke-based stops, but a modification to a single part design would theoretically allow it to support any number of stops, with stop counts divisible by 8 being easiest to implement.
+
+The wheel is mostly held together using a peg-based system that allows easy assembly and fairly easy disassembly. Epoxies and glues are only used in limited circumstances.
+
+The pointer design uses inexpensive tactical rubber bands to provide pointer motion.
+
+The attractive gussetted spoke design utilizes common shelf pins and shelf pin sleeves.
+
+Spaces on the wheel are designed for magnetic attachment, with magnets embedded into the 3D prints.
+
+There is nothing about this design that limits it to one particular game. Get creative! For example, build a wheel layout that simulates rolling two six sided dice, and add more excitement to a whole host of games.
+
+# Important Things To Read and Consider Before Jumping In
+
+A few notes before we get into the thick of it:
 
 This build is not cheap or fast or small. It requires a lot of PETG filament and will literally take hundreds of hours of 3D print time. All of the other little parts are not too expensive individually, but they add up.
 Of course, you also need a full-sized 3D printer and possibly a vinyl cutting machine (see notes), both of which have upfront costs.
-The master manifest tries to give a rough estimate of what this all will cost to make, but of course cannot be kept up to date with fluctuating prices.
-This thing is practically furniture. It is 34 inches wide not accounting for how far the player podiums stick out. Be sure to plan for space to build, use, and store it accordingly.
+The [Master Bill of Materials](Master-Bom.html) tries to give a rough estimate of what this all will cost to make, but of course cannot be kept up to date with fluctuating prices.
+This thing is practically furniture. Again, it is 34 inches wide not accounting for how far the pointer stations stick out. Be sure to plan for space to build, use, and store it accordingly.
+
+One thing that you will not find here is artwork to put on your wheel. These instructions produce a bare, unadorned wheel, without trademarked or copyrighted artwork.
+You will need to find artwork elsewhere.
 
 While I have made efforts to make these processes accessible, they do require some crafting skill, particularly in but not limited to the 3D printing arena.
 It is not the intent of these instructions to provide detailed tutorials on common crafting techniques. Some level of proficiency with these will be assumed.
 Before starting this build, take time to review instructions regarding use of materials or tools you are unfamiliar with, and account for your individual need to practice with those novel tools and materials in order to produce a satisfactory result (i.e. maybe order extra because you might ruin the first couple attempts).
 
+So far, these model files have been used exactly once, to produce my gaming wheel.
+These instructions were derived from my experience creating and using these files.
+It is possible that some modification may be necessary to achieve success, particularly with piece fit, with other 3D printers.
+This is by no means the final version of these instructions or the files.
+
 These instructions and files are provided for free on an as-is basis, with no warranty of any kind.
-If I am available, I will try my best to help clarify instructions or provide additional tips.
-I will not be responsible for ruined or unusable materials, or any inability to complete this project or any failure to achieve a particular level of quality with it.
+While I have done my best to try to ensure these instructions are error free, I do not guarantee that.
 I will try my best to fix any errors that are identified, but I am not obligated to do so.
+If I am available, I will try my best to help clarify instructions, provide additional tips, or submit corrections.
+I will not be responsible for ruined or unusable materials, or any inability to complete this project or any failure to achieve a particular level of quality with it.
 
 Make sure to use proper workshop safety when building your wheel!
 Just the past weekend before writing this, I avoided an emergency room visit while working on the table to hold the finished wheel, by being mindful to tape a sharp end on a work piece before applying force near it.
@@ -36,12 +59,19 @@ Therefore, if you share, modify and re-release, or feature a wheel built from th
 
 Officially, all files are released under the [Creative Commons 4.0 Attribution-NonCommercial-ShareAlike license](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
 
-
 # Main Documents
 
 - [Core Wheel - Master Bill of Materials](Master-Bom.html)
 - [Core Wheel - Master Build Instructions](Build.html)
 - [Core Wheel - Print Times](Print-Times.html)
+
+# Reporting Errors or Asking Questions
+
+Both errors and questions can be submitted through the [Github Repository Issue Page](https://github.com/DukeIsCreating/build-a-wheel/issues).
+
+Please try to the best of your ability to check for an existing question or error report that matches yours so as to not create duplicates.
+
+I do not promise any sort of turnaround time to provide answers or corrections.
 
 # General Build Notes and Tips
 
@@ -87,6 +117,22 @@ I also used __Duramic__, but only for two thin add-on wedges of a special color 
 
 I had horrible warping problems with __Overture__ brand specifically (Gold color) and cannot recommend it.
 
+### Print Settings
+
+I included the print settings that worked for me. Some are critical for success, such as nozzle diameter and layer heights, and pauses to insert magnets. Others can be tweaked for your specific circumstances. In general:
+
+- Wide brims should be used on large parts, to combat warping.
+- PETG likes to be nice and hot. I found that a 250C print temperature works best for most brands.
+- The 85% initial layer flow helps with the stringing and boogering that can be an issue with PETG.
+- If your setup can handle it, speed can be tweaked.
+- The Z-Seam Position setting of "Front Right" goes hand-in-hand with [proper build plate orientation](#model-files-and-orientation-on-build-plate)
+
+If you are experiencing underextrusion after a travel, try adjusting "Extra Prime After Retraction" in increments of 0.216 for prints using 0.6mm nozzle diameter, and in increments of 0.064 for prints using 0.4mm nozzle diameter. but be aware I noticed that this setting can affect fit.
+
+### Cura Project Files
+
+The Cura project files (.3mf) that I provide are for reference. If you do not have the same 3D printer as me (Creality CR-10S), these project files probably will not work as-is with your printer, but you can use them as a guide to see how to set up your project file (for example, to see how a part should be placed on the print bed or how a particular setting is applied).
+
 ### Preparing the Print Bed 
 
 Printing PETG directly onto glass is generally not a good idea. The PETG can adhere to the glass better than the glass adheres to itself, resulting in pulling up chips and chunks of glass out of your print bed. Let's avoid that.
@@ -105,7 +151,7 @@ Before preparing your print bed, be sure to wash your hands or use clean gloves 
 
 The easiest way I found to apply the 12" painter's tape to print bed glass:
 1. Unroll the tape sticky side up onto a *clean* work surface without cutting it off of the roll, enough to cover plus wrap about a half inch to an inch around the side of the print bed.
-1. Take the print bed glass, and line it up parallel with the tape. Lower the end closest to the end of the tape onto the tape (leaving a half inch to an inch from the end), creating a hinge.
+1. Take the print bed glass, and line it up upside side down parallel with the tape. Lower the end closest to the end of the tape onto the tape (leaving a half inch to an inch from the end), creating a hinge.
 1. Still holding the glass with one hand, pull the roll of tape taut.
 1. Lower the glass the rest of the way onto the tape with one swift motion.
 1. Cut the tape off of the roll, being sure to leave a half inch to an inch past the glass.
@@ -116,6 +162,12 @@ The easiest way I found to apply the 12" painter's tape to print bed glass:
 1. Repeat prior two steps for each corner, and repeat each corner again until tape is smooth on the print bed.
 1. Wrap edges around the bottom of the print bed.
 1. Secure the print bed into place.
+
+Even with the tape layer, removing prints can be a challenge. I recommend a good metal putty knife that can be used to get under the tape. Be careful when using it, though.
+
+If the tape leaves residue on the glass print bed and you are just planning to put another layer of tape down, you can save yourself some hassle and not worry about cleaning the residue. The next application of tape should remove it.
+
+When you do finally finish with the tape and are ready to clean the print bed, the gentlest cleaning method is to heat the bed to about 50C, and use a rag with white vinegar to wipe the residue off with a firm circular motion.
 
 ### Print Bed Leveling Tips
 
@@ -165,12 +217,9 @@ Probably a Silhouette can do just as good of a job with this stuff, but I'm not 
 
 ### Do I Really Need a Cutting Machine?
 
-You do not need a cutting machine to build the core wheel if:
+You do not need a cutting machine to build the core wheel if you have some other means of satisfactorily cutting the felt to dampen the strut rollers.
 
-- You have some other means of satisfactorily cutting the felt to dampen the strut rollers.
-- You have no interest in the Vintage/Classic gold trim package for the wheel.
-
-A cutting machine may still come in very handy for making artwork to go on the wheel.
+A cutting machine may still come in very handy for making artwork to go on the wheel, though.
 
 ## General Assembly
 
