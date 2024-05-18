@@ -4,6 +4,9 @@ Welcome! If you're here, you probably want to build a tabletop game wheel that s
 
 # Basic Features and Design
 
+![picture of tabletop gaming wheel](images/tabletop-gaming-wheel.jpg)
+(Note: Gold vinyl trim package not included in instructions)
+
 The finished wheel, including trim around the outside but not including pointer stations, is just a little under 34 inches in diameter and is made to fit a standard size card table.
 
 Most of the wheel is designed to be 3D printed using PETG filament.
