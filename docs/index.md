@@ -39,9 +39,10 @@ Before starting this build, take time to review instructions regarding use of ma
 So far, these model files have been used exactly once, to produce my gaming wheel.
 These instructions were derived from my experience creating and using these files.
 It is possible that some modification may be necessary to achieve success, particularly with piece fit, with other 3D printers.
-This is by no means the final version of these instructions or the files.
+This is by no means the final version of these instructions or the files. More people testing and using this design is key to improving it further.
 
 These instructions and files are provided for free on an as-is basis, with no warranty of any kind.
+This material should be considered as "beta release" level at current.
 While I have done my best to try to ensure these instructions are error free, I do not guarantee that.
 I will try my best to fix any errors that are identified, but I am not obligated to do so.
 If I am available, I will try my best to help clarify instructions, provide additional tips, or submit corrections.
@@ -57,14 +58,27 @@ Since I can't feasibly build a wheel for everyone who wants one, I am releasing 
 I don't expect to make money off of this project, but receiving credit for my work is nice.
 Therefore, if you share, modify and re-release, or feature a wheel built from this kit, please give credit.
 
-Officially, all files are released under the [Creative Commons 4.0 Attribution-NonCommercial-ShareAlike license](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
+Officially, all files are released under the [Creative Commons 4.0 Attribution-NonCommercial-ShareAlike license](https://creativecommons.org/licenses/by-nc-sa/4.0/).  So no commercial ventures based around my design, please. 
 
 # Main Documents
 
 - [Core Wheel - Master Bill of Materials](Master-Bom.html)
 - [Core Wheel - Master Build Instructions](Build.html)
 - [Core Wheel - Print Times](Print-Times.html)
+- [Download All Files](https://github.com/DukeIsCreating/build-a-wheel/archive/refs/heads/main.zip)
 
+
+# What You Will Find Here
+
+- 3D Model files (.stl) for the various parts of the wheel.
+- 3D Model files (.stl) for jigs needed for assembly.
+- Printing instructions for each 3D printed part.
+- Sample 3D print Cura project file (.3mf) for reference, tuned for Creality CR-10S.
+- Vector files (.svg) for parts to be cut on a vinyl cutting machine.
+- Assembly instructions for each subassembly, including part manifest.
+- General instructions including tips for successful printint and cutting.
+- Master part, supply, and tool manifest for build.
+ 
 # Reporting Errors or Asking Questions
 
 Both errors and questions can be submitted through the [Github Repository Issue Page](https://github.com/DukeIsCreating/build-a-wheel/issues).
